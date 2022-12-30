@@ -1,7 +1,7 @@
 # go-cron
 Distributed timing task system
 
-##Master config demo
+## Master config demo
 
 ```json
 {
@@ -14,7 +14,7 @@ Distributed timing task system
 }   // defaulr config path: go-cron/config/master.json
 ```
 
-##Worker config demo
+## Worker config demo
 
 ```json
 {
