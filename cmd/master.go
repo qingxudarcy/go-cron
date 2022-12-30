@@ -22,6 +22,6 @@ var masterCmd = &cobra.Command{
 }
 
 func init() {
-	masterCmd.Flags().StringP("config", "c", "./internal/master/init/master.json", "指定配置文件路径")
+	masterCmd.Flags().StringP("config", "c", "./config/master.json", "指定配置文件路径")
 	rootCmd.AddCommand(masterCmd)
 }

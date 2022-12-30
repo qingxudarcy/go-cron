@@ -22,6 +22,6 @@ var workerCmd = &cobra.Command{
 }
 
 func init() {
-	workerCmd.Flags().StringP("config", "c", "./internal/worker/init/worker.json", "指定配置文件路径")
+	workerCmd.Flags().StringP("config", "c", "./config/worker.json", "指定配置文件路径")
 	rootCmd.AddCommand(workerCmd)
 }
